@@ -90,6 +90,5 @@ This project demonstrates hands-on experience in security monitoring, alert corr
 ## 👤 Author
 
 Sh34iF.exe 
-Focused on SOC Operations | Threat Detection | SIEM Engineering | Incident Response  
 
 ---
