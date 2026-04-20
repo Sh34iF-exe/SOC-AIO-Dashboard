@@ -1,5 +1,8 @@
 # Incident / Case count by Severity (Last 24 hours)
 
+![Widget image](W1.png)
+
+
 ## Critical Severity
 
 ```bash
