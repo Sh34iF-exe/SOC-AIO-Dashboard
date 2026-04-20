@@ -8,7 +8,7 @@ dataset = incidents
 | filter severity = ENUM.CRITICAL   
 | filter timestamp_diff(current_time(), creation_time, "SECOND") <= 86400
 | comp count() as Total by severity
-| view graph type = single subtype = standard xaxis = severity yaxis = Total scale_threshold("#900808") 
+| view graph type = single subtype = standard xaxis = severity yaxis = Total scale_threshold("#D92D20") 
 ```
 
 ## High Severity
@@ -19,7 +19,7 @@ dataset = incidents
 | filter severity = ENUM.HIGH    
 | filter timestamp_diff(current_time(), creation_time, "SECOND") <= 86400
 | comp count() as Total by severity
-| view graph type = single subtype = standard xaxis = severity yaxis = Total scale_threshold("#ff2323") headerfontsize = 70 
+| view graph type = single subtype = standard xaxis = severity yaxis = Total scale_threshold("#F04438")
 ```
 
 ## Medium Severity
@@ -30,7 +30,7 @@ dataset = incidents
 | filter severity = ENUM.MEDIUM     
 | filter timestamp_diff(current_time(), creation_time, "SECOND") <= 86400 
 | comp count() as Total by severity
-| view graph type = single subtype = standard xaxis = severity yaxis = Total scale_threshold("#e6a30f") headerfontsize = 70 
+| view graph type = single subtype = standard xaxis = severity yaxis = Total scale_threshold("#F79009") 
 ```
 
 ## Low Severity
