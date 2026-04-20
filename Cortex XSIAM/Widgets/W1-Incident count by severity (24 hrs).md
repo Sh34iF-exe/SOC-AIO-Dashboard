@@ -41,5 +41,5 @@ dataset = incidents
 | filter severity = ENUM.LOW     
 | filter timestamp_diff(current_time(), creation_time, "SECOND") <= 86400
 | comp count() as Total by severity
-| view graph type = single subtype = standard xaxis = severity yaxis = Total scale_threshold("#0e9ce6") headerfontsize = 70 
+| view graph type = single subtype = standard xaxis = severity yaxis = Total scale_threshold("#2E90FA") 
 ```
